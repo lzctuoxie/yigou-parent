@@ -13,6 +13,7 @@
         <module>yigou-zuul-gateway</module>
         <module>basic-parent</module>
         <module>yigou-plat-parent</module>
+        <module>yigou-config-server</module>
     </modules>
 
     <properties>
