@@ -9,6 +9,7 @@
         <module name="basic-util" />
         <module name="plat-interface" />
         <module name="plat-service" />
+        <module name="yigou-config-server" />
         <module name="yigou-eureka-server" />
         <module name="yigou-zuul-gateway" />
       </profile>
@@ -18,6 +19,7 @@
       <module name="basic-util" target="1.8" />
       <module name="plat-interface" target="1.8" />
       <module name="plat-service" target="1.8" />
+      <module name="yigou-config-server" target="1.8" />
       <module name="yigou-eureka-server" target="1.8" />
       <module name="yigou-parent" target="1.8" />
       <module name="yigou-plat-parent" target="1.8" />
