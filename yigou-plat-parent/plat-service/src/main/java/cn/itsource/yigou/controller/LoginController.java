@@ -1,7 +1,10 @@
 package cn.itsource.yigou.controller;
 
+import cn.itsource.yigou.domain.Employee;
+import cn.itsource.yigou.service.EmployeeService;
 import cn.itsource.yigou.util.AjaxResult;
 import io.swagger.annotations.ApiOperation;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -17,6 +20,9 @@ import java.util.Map;
  */
 @RestController
 public class LoginController {
+
+    @Autowired
+    private EmployeeService employeeService;
 
 
     /**
@@ -40,11 +46,13 @@ public class LoginController {
     public AjaxResult login(@RequestBody Map<String,Object> params){
         String username =  (String) params.get("username");
         String password =  (String) params.get("password");
-        if("admin".equals(username)&& "admin".equals(password)){
+
+        Employee employee = employeeService.login(username,password);
+
+        if(employee!=null){
             //成功
             return AjaxResult.me();
-        }else {
-            return AjaxResult.me().setSuccess(false).setMessage("密码错误或用户名错误");
         }
+        return AjaxResult.me().setSuccess(false).setMessage("密码错误或用户名错误");
     }
 }
