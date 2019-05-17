@@ -3,12 +3,17 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/basic-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/basic-parent/basic-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/basic-parent/basic-generator" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/basic-parent/basic-util" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yigou-config-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yigou-eureka-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yigou-plat-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yigou-plat-parent/plat-interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yigou-plat-parent/plat-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yigou-product-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yigou-product-parent/product-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yigou-product-parent/product-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yigou-zuul-gateway" charset="UTF-8" />
   </component>
 </project>

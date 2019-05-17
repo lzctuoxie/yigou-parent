@@ -6,23 +6,32 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="basic-core" />
+        <module name="basic-generator" />
         <module name="basic-util" />
         <module name="plat-interface" />
         <module name="plat-service" />
+        <module name="product-interface" />
+        <module name="product-service" />
         <module name="yigou-config-server" />
         <module name="yigou-eureka-server" />
         <module name="yigou-zuul-gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="basic-core" target="1.8" />
+      <module name="basic-generator" target="1.8" />
       <module name="basic-parent" target="1.8" />
       <module name="basic-util" target="1.8" />
       <module name="plat-interface" target="1.8" />
       <module name="plat-service" target="1.8" />
+      <module name="product-interface" target="1.8" />
+      <module name="product-service" target="1.8" />
       <module name="yigou-config-server" target="1.8" />
       <module name="yigou-eureka-server" target="1.8" />
       <module name="yigou-parent" target="1.8" />
       <module name="yigou-plat-parent" target="1.8" />
+      <module name="yigou-product-parent" target="1.8" />
       <module name="yigou-zuul-gateway" target="1.8" />
     </bytecodeTargetLevel>
   </component>

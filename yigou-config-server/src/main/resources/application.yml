@@ -8,16 +8,16 @@ eureka:
     instance-id: yigou-config-server:1299.com
     prefer-ip-address: true
 spring:
-#  profiles:
-#    active: native #读取本地配置
+  profiles:
+    active: native #读取本地配置
   application:
     name: YIGOU-CONFIG-SERVER
   cloud:
     config:
       server:
-#        native:
-#          search-locations: D:/github/yigou-config #本地配置所在的目录
-        git:
-          uri: https://github.com/lzctuoxie/yigou-config.git
-          username: lzctuoxie
-          password: peng1599x.pcnm
+        native:
+          search-locations: D:/github/yigou-config #本地配置所在的目录
+#        git:
+#          uri: https://github.com/lzctuoxie/yigou-config.git
+#          username: lzctuoxie
+#          password: peng1599x.pcnm
