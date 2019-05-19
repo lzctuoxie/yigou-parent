@@ -6,10 +6,13 @@
       <module fileurl="file://$PROJECT_DIR$/basic-parent/basic-generator/basic-generator.iml" filepath="$PROJECT_DIR$/basic-parent/basic-generator/basic-generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic-parent/basic-parent.iml" filepath="$PROJECT_DIR$/basic-parent/basic-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic-parent/basic-util/basic-util.iml" filepath="$PROJECT_DIR$/basic-parent/basic-util/basic-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yigou-common-parent/common-interface/common-interface.iml" filepath="$PROJECT_DIR$/yigou-common-parent/common-interface/common-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yigou-common-parent/common-service/common-service.iml" filepath="$PROJECT_DIR$/yigou-common-parent/common-service/common-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/yigou-plat-parent/plat-interface/plat-interface.iml" filepath="$PROJECT_DIR$/yigou-plat-parent/plat-interface/plat-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/yigou-plat-parent/plat-service/plat-service.iml" filepath="$PROJECT_DIR$/yigou-plat-parent/plat-service/plat-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/yigou-product-parent/product-interface/product-interface.iml" filepath="$PROJECT_DIR$/yigou-product-parent/product-interface/product-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/yigou-product-parent/product-service/product-service.iml" filepath="$PROJECT_DIR$/yigou-product-parent/product-service/product-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yigou-common-parent/yigou-common-parent.iml" filepath="$PROJECT_DIR$/yigou-common-parent/yigou-common-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/yigou-config-server/yigou-config-server.iml" filepath="$PROJECT_DIR$/yigou-config-server/yigou-config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/yigou-eureka-server/yigou-eureka-server.iml" filepath="$PROJECT_DIR$/yigou-eureka-server/yigou-eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/yigou-parent.iml" filepath="$PROJECT_DIR$/yigou-parent.iml" />

@@ -15,6 +15,7 @@
         <module>yigou-plat-parent</module>
         <module>yigou-config-server</module>
         <module>yigou-product-parent</module>
+        <module>yigou-common-parent</module>
     </modules>
 
     <properties>
